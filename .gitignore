@@ -1,0 +1,27 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest-specific ignores
+.pytest_cache/
+
+# Log files (falls du logs/ nicht committen willst)
+logs/
+
+# IDE-specific ignores (falls du eine IDE nutzt)
+.idea/  # PyCharm
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS-specific ignores
+.DS_Store  # macOS
+Thumbs.db  # Windows

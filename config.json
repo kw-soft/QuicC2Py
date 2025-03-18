@@ -1,0 +1,18 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 4433
+    },
+    "client": {
+        "host": "localhost",
+        "port": 4433
+    },
+    "crypto": {
+        "aes_key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+        "aes_iv": "000102030405060708090a0b0c0d0e0f"
+    },
+    "logging": {
+        "path": "logs/udp_c2.log",
+        "level": "INFO"
+    }
+}
