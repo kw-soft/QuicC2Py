@@ -3,6 +3,9 @@
 ## Project Overview
 **QuicC2Py** is an advanced, modular proof-of-concept implementation of a Command-and-Control (C2) system built using Python's `asyncio` framework over UDP. Designed primarily for educational purposes and authorized security testing, this project features an extensible client-server architecture secured with AES encryption, ideal for exploring network security, penetration testing, and protocol development.
 
+## Future Goal: Transition to QUIC Protocol
+While QuicC2Py currently operates over UDP with manual AES-CBC encryption to provide a functional and educational Command-and-Control (C2) demonstration, the long-term goal is to transition to the QUIC protocol for enhanced performance and security. QUIC, built on UDP, offers built-in TLS 1.3 encryption, stream multiplexing, and features like 0-RTT connection establishment, making it a superior choice for modern network applications. Initial attempts to implement QUIC using Python's `aioquic` library faced challenges with certificate compatibility and stability, leading to the current UDP-based solution. Future development aims to leverage a stable QUIC implementation—potentially using Go's `quic-go` library—to fully realize these advanced capabilities, aligning UDPC2Demo with cutting-edge networking standards while maintaining its educational focus.
+
 ## Features
 
 - **UDP-based Communication**: Efficient, low-latency, connectionless communication.
