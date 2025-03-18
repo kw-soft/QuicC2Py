@@ -14,7 +14,6 @@ venv.bak/
 .pytest_cache/
 
 # Log files (falls du logs/ nicht committen willst)
-logs/
 
 # IDE-specific ignores (falls du eine IDE nutzt)
 .idea/  # PyCharm
